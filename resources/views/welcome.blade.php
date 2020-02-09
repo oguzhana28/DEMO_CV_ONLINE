@@ -1,24 +1,15 @@
-@extends('includes.header')
+@include('includes.header')
 
 @section('title', 'Welcome')
 
 <body>
-    <h1 class="title">CSV DEMO Oguzhan<h1>
+    <div>
+        <h1 class="title">CSV DEMO Oguzhan<h1>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+        <div class="userDetails">
+            
+        </div>
+    </div>
 </body>
 
 @extends('includes.footer')
